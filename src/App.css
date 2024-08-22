@@ -1,0 +1,168 @@
+body {
+  font-size: 30px;
+  background-color: rgb(13, 7, 29);
+  color: white;
+
+}
+
+nav {
+  font-size: larger;
+  text-align: center;
+  align-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 5%;
+
+}
+
+section {
+  padding: 40px 20px;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+.link {
+  margin: 5px;
+  text-align: center;
+  align-content: center;
+  color: rgb(255, 255, 255);
+}
+
+.link:hover {
+  color:  rgba(255, 179, 179, 0.712);
+}
+
+/* Code to handle the styling of the 'About Me' section*/
+
+#about {
+ 
+}
+
+#about-content {
+  display: flex;
+  margin-left: 2%;
+}
+
+
+img#headshot {
+  height: 500px;
+  margin-top: 10%;
+
+
+}
+
+#about-text {
+  padding: 2.5%;
+  max-width: 65%;
+  border: solid;
+  margin-left: 30px;
+  background-color: rgba(255, 255, 255, 0.14);
+}
+
+/* Code to handle the styling of the 'Skills' section*/
+
+#skills {
+  text-align: center;
+}
+
+
+#skills-content {
+  display: flex;
+  justify-content:center; /* Centers the boxes horizontally */
+  align-items: center; /* Centers the boxes vertically */
+  flex-wrap: wrap; /* Allows the boxes to wrap to the next line if needed */
+  
+}
+
+#skills-box {
+  text-align: center;
+  align-items: center;
+  height: 150px;
+  width: fit-content;
+  border: solid ;
+  padding: 40px;
+  margin: 30px;
+  background-color: rgba(255, 255, 255, 0.14);
+}
+
+#skill-img {
+  height: 100px;
+}
+
+/* Code to handle the styling of the 'Experience' section*/
+
+#experiences {
+  
+  align-items: center;
+}
+
+#experience {
+  border:solid;
+  display: flex;
+  margin: 3%;
+  padding:40px;
+  background-color: rgba(255, 255, 255, 0.14);
+}
+
+#experience-img-section {
+
+  align-content: center;
+}
+
+#experience-img {
+  height: 220px;
+}
+
+#experience-content {
+
+  margin-left: 2%;
+
+}
+
+
+
+/* Code to handle the styling of the 'Projects' section*/
+
+#projects {
+  
+}
+
+#projects-content {
+  display: flex;
+  padding: 2%;
+  flex-wrap: wrap;
+}
+#box-icons {
+  display: flex;
+  justify-content: right;
+}
+#icon {
+  height: 40px;
+  margin-left: 5px;
+}
+#project-img {
+  height: 150px;
+}
+
+#box-content {
+  min-width: fit-content;
+  max-width: 500px;
+}
+
+#projects-box {
+  
+  text-align: center;
+  align-items: center;
+  height: fit-content;
+  width: fit-content;
+  border: solid ;
+  padding: 40px;
+  margin: 30px;
+  background-color: rgba(255, 255, 255, 0.14);
+}
+
+
