@@ -19,7 +19,7 @@ import RubyLogo from './assets/ruby.png'
 import ReactLogo from './assets/react.png'
 import PostmanLogo from './assets/postman.png'
 import HaskellLogo from './assets/haskell.png'
-
+import GithubLogo from './assets/github.png'
 import KotlinLogo from './assets/kotlin.png'
 import JiraLogo from './assets/jira.png'
 import DockerLogo from './assets/docker.png'
@@ -44,15 +44,15 @@ function App() {
     <div className='Web'>
       
       <nav>
-        <Link className='link' to='about' smooth={true} duration={500}><u>About Me</u></Link>
-        <Link className='link' to='skills' smooth={true} duration={500}><u>Skills</u></Link>
-        <Link className='link' to='experience' smooth={true} duration={500}><u>Experience</u></Link>
-        <Link className='link' to='projects' smooth={true} duration={500}><u>Projects</u></Link>
+        <Link className='link' to='about' smooth={true} duration={500}>About Me</Link>
+        <Link className='link' to='skills' smooth={true} duration={500}>Skills</Link>
+        <Link className='link' to='experience' smooth={true} duration={500}>Experience</Link>
+        <Link className='link' to='projects' smooth={true} duration={500}>Projects</Link>
       </nav>
 
       <section id='about'>
 
-        <h1>About Me</h1>
+        <h1 id='section-header'>About Me</h1>
         
           <div id='about-content'>
             <div id='about-headshot'>
@@ -71,7 +71,7 @@ function App() {
 
       <section id='skills'>
       
-      <h2>Languages</h2>
+      <h2 id='section-header'>Languages</h2>
 
       <div id='skills-content'>
         
@@ -88,7 +88,7 @@ function App() {
 
       </div>
 
-      <h2>Frameworks and Libraries</h2>
+      <h2 id='section-header'>Frameworks and Libraries</h2>
 
       <div id='skills-content'>
         <Skill logo={ReactLogo} text='React'/>
@@ -101,7 +101,7 @@ function App() {
         <Skill logo={ASLogo} text='Android Studio'/>  
       </div>
 
-      <h2>Developer Tools</h2>
+      <h2 id='section-header'>Developer Tools</h2>
 
       <div id='skills-content'>
 
@@ -117,7 +117,7 @@ function App() {
       </section>
 
       <section id='experiences'>
-        <h1>Experience</h1>
+        <h1 id='section-header'>Experience</h1>
 
         <div id='experience'>
           <div id='experience-img-section'>
@@ -156,7 +156,7 @@ function App() {
       </section>
 
       <section id='projects'>
-        <h1>Projects</h1>
+        <h1 id='section-header'>Projects</h1>
 
         <div id='projects-content'>
           <div id='projects-box'>
