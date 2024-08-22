@@ -62,8 +62,7 @@ function App() {
               
               <p>I am a driven computer science student at the University of Maryland, College Park, with over five years of experience in IT and software development. As I approach graduation, I’m excited to apply my skills and knowledge to create impactful and innovative solutions in the tech industry.</p>
               <p>My journey in technology began with an associate's degree from Montgomery College, where I developed a solid foundation in computer science. Since then, I’ve gained hands-on experience in IT and software engineering roles, where I’ve tackled real-world challenges and honed my abilities in problem-solving, coding, and project management. Whether it’s developing secure applications, managing cloud infrastructure, or setting up complex networks, I bring a versatile skill set to the table.</p>
-              <p>My journey in technology began with an associate's degree from Montgomery College, where I developed a solid foundation in computer science. Since then, I’ve gained hands-on experience in IT and software engineering roles, where I’ve tackled real-world challenges and honed my abilities in problem-solving, coding, and project management. Whether it’s developing secure applications, managing cloud infrastructure, or setting up complex networks, I bring a versatile skill set to the table.</p>
-              <p>I’m particularly passionate about roles that allow me to leverage my technical expertise while contributing to meaningful projects, especially in environments that value continuous learning and innovation. With a strong background in both software engineering and IT, I’m well-equipped to bridge the gap between development and operations, ensuring that solutions are not only effective but also sustainable and scalable.</p>
+              <p>With a strong background in both software engineering and IT, I’m well-equipped to bridge the gap between development and operations, ensuring that solutions are not only effective but also sustainable and scalable.</p>
               <p>Beyond my professional interests, I’m an avid soccer player and the captain of my intramural team, where I’ve learned the value of teamwork and leadership. I also enjoy producing music and exploring the cultural richness of Washington, DC, and my birthplace, Spain. These experiences have shaped my creative approach to problem-solving and my commitment to excellence in everything I do.</p>
               
             </div>
@@ -77,136 +76,43 @@ function App() {
       <div id='skills-content'>
         
         <Skill logo={PythonLogo} text='Python'/>
+        <Skill logo={JavaScriptLogo} text='JavaScript'/>
+        <Skill logo={HTMLLogo} text='HTML'/>
+        <Skill logo={CSSLogo} text='CSS'/>
+        <Skill logo={JavaLogo} text='Java'/>
+        <Skill logo={KotlinLogo} text='kotlin'/>
+        <Skill logo={CLogo} text='C'/>
+        <Skill logo={CPPLogo} text='C++'/>
+        <Skill logo={RubyLogo} text='Ruby'/>
+        <Skill logo={HaskellLogo} text='Haskell'/>
 
-        <div id='skills-box'>
-          <img src={JavaScriptLogo} id='skill-img' alt='logo'/>
-          <p>JavaScript</p>
-        </div>
-
-        <div id='skills-box'>
-          <img src={HTMLLogo} id='skill-img' alt='logo'/>
-          <p>HTML</p>
-        </div>
-
-        <div id='skills-box'>
-          <img src={CSSLogo} id='skill-img' alt='logo'/>
-          <p>CSS</p>
-        </div>
-
-        <div id='skills-box'>
-          <img src={JavaLogo} id='skill-img' alt='logo'/>
-          <p>Java</p>
-        </div>
-
-        <div id='skills-box'>
-          <img src={KotlinLogo} id='skill-img' alt='logo'/>
-          <p>Kotlin</p>
-        </div>
-
-        <div id='skills-box'>
-          <img src={CLogo} id='skill-img' alt='logo'/>
-          <p>C</p>
-        </div>
-
-        <div id='skills-box'>
-          <img src={CPPLogo} id='skill-img' alt='logo'/>
-          <p>C++</p>
-        </div>
-
-        <div id='skills-box'>
-          <img src={RubyLogo} id='skill-img' alt='logo'/>
-          <p>Ruby</p>
-        </div>
-
-        <div id='skills-box'>
-          <img src={HaskellLogo} id='skill-img' alt='logo'/>
-          <p>Haskell</p>
-        </div>
       </div>
 
       <h2>Frameworks and Libraries</h2>
 
       <div id='skills-content'>
-
-        <div id='skills-box'>
-          <img src={ReactLogo} id='skill-img' alt='logo'/>
-          <p>React</p>
-        </div>
-        
-        <div id='skills-box'>
-          <img src={NodeLogo} id='skill-img' alt='logo'/>
-          <p>Node.js</p>
-        </div>
-
-        <div id='skills-box'>
-          <img src={FirebaseLogo} id='skill-img' alt='logo'/>
-          <p>Firebase</p>
-        </div>
-
-        <div id='skills-box'>
-          <img src={AzureLogo} id='skill-img' alt='logo'/>
-          <p>Azure</p>
-        </div>
-
-        <div id='skills-box'>
-          <img src={MongoLogo} id='skill-img' alt='logo'/>
-          <p>MongoDB</p>
-        </div>
-
-        <div id='skills-box'>
-          <img src={ExpressLogo} id='skill-img' alt='logo'/>
-          <p>Express.js</p>
-        </div>
-        
-        <div id='skills-box'>
-          <img src={MySQLLogo} id='skill-img' alt='logo'/>
-          <p>MySQL</p>
-        </div>
-
-        <div id='skills-box'>
-          <img src={ASLogo} id='skill-img' alt='logo'/>
-          <p>Android Studio</p>
-        </div>
-      
+        <Skill logo={ReactLogo} text='React'/>
+        <Skill logo={NodeLogo} text='Node.js'/>
+        <Skill logo={FirebaseLogo} text='Firebase'/>
+        <Skill logo={AzureLogo} text='Azure'/>
+        <Skill logo={MongoLogo} text='MongoDB'/>
+        <Skill logo={ExpressLogo} text='Express.js'/>
+        <Skill logo={MySQLLogo} text='MySQL'/>
+        <Skill logo={ASLogo} text='Android Studio'/>  
       </div>
 
       <h2>Developer Tools</h2>
 
       <div id='skills-content'>
-        <div id='skills-box'>
-          <img src={PostmanLogo} id='skill-img' alt='logo'/>
-          <p>Postman</p>
-        </div>
 
-        <div id='skills-box'>
-          <img src={JiraLogo} id='skill-img' alt='logo'/>
-          <p>Jira</p>
-        </div>
+        <Skill logo={PostmanLogo} text='Postman'/>
+        <Skill logo={JiraLogo} text='Jira'/>
+        <Skill logo={GitLogo} text='Git'/>
+        <Skill logo={DockerLogo} text='Docker'/>
+        <Skill logo={FigmaLogo} text='Figma'/>
+        <Skill logo={GradleLogo} text='Gradle'/>
+        <Skill logo={MavenLogo} text='Maven'/>
 
-        <div id='skills-box'>
-          <img src={GitLogo} id='skill-img' alt='logo'/>
-          <p>Git</p>
-        </div>
-
-        <div id='skills-box'>
-          <img src={DockerLogo} id='skill-img' alt='logo'/>
-          <p>Docker</p>
-        </div>
-
-        <div id='skills-box'>
-          <img src={FigmaLogo} id='skill-img' alt='logo'/>
-          <p>Figma</p>
-        </div>
-
-        <div id='skills-box'>
-          <img src={GradleLogo} id='skill-img' alt='logo'/>
-          <p>Gradle</p>
-        </div>
-
-        <div id='skills-box'>
-          <img src={MavenLogo} id='skill-img' alt='logo'/>
-          <p>Maven</p>
-        </div>
       </div>
       </section>
 
@@ -216,36 +122,35 @@ function App() {
         <div id='experience'>
           <div id='experience-img-section'>
             <img src={SteampunkLogo} id='experience-img' alt='logo'/>
+            <p>Technical Intern</p>
+            <p>Tysons Corner, VA</p>
           </div>
           <div id='experience-content'>
-            <p>
-              • Built applications using <b>HTML/CSS </b>to manage hundreds of employee requests nationwide, streamlining processes and increasing team efficiency by 40% <br/>
-              • Led implementation of tests for an internal project ensuring government-compliant software updates were installed on hundreds of devices, reducing debugging time by 80% <br/>
-              • Participated in a <b>Scrum/Agile</b> environment using <b>Confluence</b> and <b>Jira</b>, including weekly stand-ups, sprint plannings, and story point estimations <br/>
-              • Managed <b>SharePoint</b>user permissions and secured access to sensitive data for high-level government projects, ensuring stringent compliance with security protocols and safeguarding critical information across <b>SharePoint Sites </b>and <b>Cloud</b> storage systems <br/>
-              • Managed employee devices using <b>Azure</b>, optimizing configurations and ensuring compliance with organizational security standards for reliable and secure device management across the company <br/>
-              • Utilized <b>Git </b>and version control commands to manage project codebases, ensuring smooth collaboration, accurate tracking of changes, and seamless integration <br/>
-              • Handled and resolved IT support tickets using <b>Freshservice</b>, streamlining workflows and ensuring timely resolutions to maintain operational efficiency <br/>
-              • Utilized <b>Postman </b>to debug, test, and validate APIs and endpoints, ensuring reliable performance <br/>
-            </p>
+            <p>• Built applications using <b>HTML/CSS </b>to manage hundreds of employee requests nationwide, streamlining processes and increasing team efficiency by 40% </p>
+            <p>• Led implementation of tests for an internal project ensuring government-compliant software updates were installed on hundreds of devices, reducing debugging time by 80% </p>
+            <p>• Participated in a <b>Scrum/Agile</b> environment using <b>Confluence</b> and <b>Jira</b>, including weekly stand-ups, sprint plannings, and story point estimations </p>
+            <p>• Managed <b>SharePoint</b>user permissions and secured access to sensitive data for high-level government projects, ensuring stringent compliance with security protocols and safeguarding critical information across <b>SharePoint Sites </b>and <b>Cloud</b> storage systems </p>
+            <p>• Managed employee devices using <b>Azure</b>, optimizing configurations and ensuring compliance with organizational security standards for reliable and secure device management across the company</p>
+            <p>• Utilized <b>Git </b>and version control commands to manage project codebases, ensuring smooth collaboration, accurate tracking of changes, and seamless integration </p>
+            <p>• Handled and resolved IT support tickets using <b>Freshservice</b>, streamlining workflows and ensuring timely resolutions to maintain operational efficiency</p>
+            <p>• Utilized <b>Postman </b>to debug, test, and validate APIs and endpoints, ensuring reliable performance</p>
           </div>
         </div>
 
         <div id='experience'>
           <div id='experience-img-section'>
             <img src={ThinksociallyLogo} id='experience-img' alt='logo'/>
+            <p>System Administrator</p>
+            <p>Washington, DC</p>
           </div>
           <div id='experience-content'>
-            <p>
-              • Developed automated monthly inventory reports using <b>Python</b> and <b>Pandas</b>, reducing invoice preparation time by 90% <br/>
-              • Spearheaded an automated disk wiping and certificate backup project in <b>Python</b> using government-approved software, enhancing data security and regulatory compliance <br/>
-              • Set up and configured <b>Cisco Meraki</b> equipment at client sites, optimizing network performance and security<br/>
-              • Managed and resolved technical support tickets using <b>ConnectWise</b>, streamlining the ticketing process and achieving an improvement in response time and customer satisfaction.<br/>
-              • Utilized <b>SolarWinds</b> to monitor and manage client devices, proactively identifying and resolving network and system issues<br/>
-              • Diagnosed and resolved a wide range of computer and server issues including virus removal and device setup, greatly improving operational efficiency and client satisfaction.<br/>
-            </p>
+              <p>• Developed automated monthly inventory reports using <b>Python</b> and <b>Pandas</b>, reducing invoice preparation time by 90% </p>
+              <p>• Spearheaded an automated disk wiping and certificate backup project in <b>Python</b> using government-approved software, enhancing data security and regulatory compliance</p>
+              <p>• Set up and configured <b>Cisco Meraki</b> equipment at client sites, optimizing network performance and security</p>
+              <p>• Managed and resolved technical support tickets using <b>ConnectWise</b>, streamlining the ticketing process and achieving an improvement in response time and customer satisfaction.</p>
+              <p>• Utilized <b>SolarWinds</b> to monitor and manage client devices, proactively identifying and resolving network and system issues</p>
+              <p>• Diagnosed and resolved a wide range of computer and server issues including virus removal and device setup, greatly improving operational efficiency and client satisfaction.</p>
           </div>
-
         </div>
         
       </section>
