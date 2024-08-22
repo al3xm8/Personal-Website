@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/Personal-Website/static/css/main.91140d0e.css",
+    "main.js": "/Personal-Website/static/js/main.00e47a25.js",
+    "static/js/453.94cb2d0d.chunk.js": "/Personal-Website/static/js/453.94cb2d0d.chunk.js",
+    "static/media/headshot.png": "/Personal-Website/static/media/headshot.16b143e8274519462c30.png",
+    "static/media/kotlin.png": "/Personal-Website/static/media/kotlin.c14676f0312153566474.png",
+    "static/media/postman.png": "/Personal-Website/static/media/postman.7fedeaff79947348538e.png",
+    "static/media/gradle.png": "/Personal-Website/static/media/gradle.a47b436f918e042aab8d.png",
+    "static/media/mysql.png": "/Personal-Website/static/media/mysql.167c88550478e6f0f85c.png",
+    "static/media/css.png": "/Personal-Website/static/media/css.7d3752b02b30af0e7dc8.png",
+    "static/media/jira.png": "/Personal-Website/static/media/jira.8bd264cec42b5dc2056f.png",
+    "static/media/python.png": "/Personal-Website/static/media/python.d8b377f05522bf35de36.png",
+    "static/media/ruby.png": "/Personal-Website/static/media/ruby.0b422d1937bfcd04dc8e.png",
+    "static/media/figma.png": "/Personal-Website/static/media/figma.de9ddc6c2c43c542a17e.png",
+    "static/media/androidstudio.png": "/Personal-Website/static/media/androidstudio.2a12492fc9378feb6d14.png",
+    "static/media/docker.png": "/Personal-Website/static/media/docker.eb2f578465bab389e141.png",
+    "static/media/thinksocially.png": "/Personal-Website/static/media/thinksocially.c9e008227737f8d643dc.png",
+    "static/media/azure.png": "/Personal-Website/static/media/azure.27603aaf1cc44b44deae.png",
+    "static/media/cpp.png": "/Personal-Website/static/media/cpp.d8d9a2f879d60721c1ac.png",
+    "static/media/html.png": "/Personal-Website/static/media/html.1d7b133e22ffe4829da6.png",
+    "static/media/maven.png": "/Personal-Website/static/media/maven.b3d44755213f039956e8.png",
+    "static/media/react.png": "/Personal-Website/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/c.png": "/Personal-Website/static/media/c.bf0af88d24cd724c83bc.png",
+    "static/media/node.png": "/Personal-Website/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/mongo.png": "/Personal-Website/static/media/mongo.2a1528ddc31d4ce8518d.png",
+    "static/media/javascript.png": "/Personal-Website/static/media/javascript.36bb4d118385f9b55177.png",
+    "static/media/steampunk.png": "/Personal-Website/static/media/steampunk.c678d8c4a1ee6f686969.png",
+    "static/media/java.png": "/Personal-Website/static/media/java.f5dd86c3ef6ef3f85acf.png",
+    "static/media/firebase.png": "/Personal-Website/static/media/firebase.209703cedf1b1a96bc52.png",
+    "static/media/bash.png": "/Personal-Website/static/media/bash.fb26e2df76f5535e4fad.png",
+    "static/media/express.png": "/Personal-Website/static/media/express.e3d4f9e5c8b469e45838.png",
+    "index.html": "/Personal-Website/index.html",
+    "main.91140d0e.css.map": "/Personal-Website/static/css/main.91140d0e.css.map",
+    "main.00e47a25.js.map": "/Personal-Website/static/js/main.00e47a25.js.map",
+    "453.94cb2d0d.chunk.js.map": "/Personal-Website/static/js/453.94cb2d0d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91140d0e.css",
+    "static/js/main.00e47a25.js"
+  ]
+}
