@@ -1,5 +1,6 @@
 import { Link } from 'react-scroll';
 import './App.css';
+import Skill from './components/skill'
 import Headshot from './assets/headshot.png'
 import PythonLogo from './assets/python.png'
 import JavaScriptLogo from './assets/javascript.png'
@@ -75,10 +76,7 @@ function App() {
 
       <div id='skills-content'>
         
-        <div id='skills-box'>
-          <img src={PythonLogo} id='skill-img' alt='logo'/>
-          <p>Python</p>
-        </div>
+        <Skill logo={PythonLogo} text='Python'/>
 
         <div id='skills-box'>
           <img src={JavaScriptLogo} id='skill-img' alt='logo'/>
