@@ -1,5 +1,5 @@
 body {
-  font-size: 30px;
+  font-size: 20px;
   background-color: rgb(13, 7, 29);
   color: white;
 
@@ -104,6 +104,8 @@ img#headshot {
   border:solid;
   display: flex;
   margin: 3%;
+  width: 80%;
+  min-width: 2000px;
   padding:40px;
   background-color: rgba(255, 255, 255, 0.14);
 }
